@@ -31,6 +31,23 @@ Once you have an API key, you can add it to the Communication section of the con
    ```bash
    employ_ease
 
+
+The following menu will display after launching Employ Ease:
+
+![image](https://github.com/courtney-palmer/Employ_Ease/assets/28797810/29472fd1-60d9-443d-a831-7605edd5e9c3)
+
+## Using the tool
+Employ Ease needs to know three things in order to provide advice with the proper context. These are: a Job Description, a Company Description, and a Resume. 
+
+There are two different ways you can provide this information. 
+
+1. Select 'U' in the Menu to update your application info. You can then provide either a body of text or a filepath that contains the new info.
+2. Toggle on the 'load on launch' setting in the config.ini file. You can then provide filepaths in config.ini which Employ Ease will read every time it is launched.
+
+To see what is currently in memory, select 'U' -> '5': Check Contents in Memory. 
+
+After Employ Ease is provided with the proper context, it will be ready to help answer questions about job descriptions, resumes, cover letters, interviews, and job negotiations. 
+
 ## How to change this project for your own use case
 
 The main way to change tailor this project is to go to the 'prompts.ini' file, located in the ./src/internal folder. This file contains all of the prompts that are used to interact with the Employ Ease bot.
