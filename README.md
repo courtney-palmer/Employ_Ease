@@ -15,7 +15,7 @@ Once you have an API key, you can add it to the Communication section of the con
 
 ### Step-by-Step Installation
 
-1. **Open Command Line Interface**: Navigate to the directory where the Employ_Ease project folder is located.
+1. **Open Command Line Interface**:  Open your preferred CLI and navigate to the directory where the Employ_Ease project folder is located.
 
 2. **Install the Project**:
    
