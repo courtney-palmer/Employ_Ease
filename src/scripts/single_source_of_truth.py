@@ -80,14 +80,16 @@ class single_source_of_truth:
             if section not in updates:
                 updates[section] = {}
             updates[section][option] = value
-    
-        parser = load_ini(f"{os.getcwd()}\\{SSOT_FILE_PATH}", "single_source_of_truth.ini")
+            
+        ssot_parser = configparser.ConfigParser()
+        ssot_parser.read(os.path.join(os.getcwd(), SSOT_FILE_PATH), encoding='utf-8')
+
         for section, options in updates.items():
             for option, value in options.items():
-                parser.set(section, option, f"\"{value}\"")
+                ssot_parser.set(section, option, f"\"{value}\"")
         try:
             with open(os.path.join(os.getcwd(), SSOT_FILE_PATH), 'w', encoding= 'utf-8') as configfile:
-                parser.write(configfile)
+                ssot_parser.write(configfile)
         except IOError as e:
             print(f"Error writing to file: {e}")
 #endregion
