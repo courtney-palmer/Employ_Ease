@@ -50,7 +50,7 @@ After Employ Ease is provided with the proper context, it will be ready to help 
 
 ## How to change this project for your own use case
 
-The main way to change tailor this project is to go to the 'prompts.ini' file, located in the ./src/internal folder. This file contains all of the prompts that are used to interact with the Employ Ease bot.
+The main way to modify this project is to go to the 'prompts.ini' file, located in the ./src/internal folder. This file contains all of the prompts that are used to interact with the Employ Ease bot.
 You can change these prompts to whatever you want, and the bot will respond accordingly. In this case, the prompts are all focused around job hunting. 
 
 Instead, you could change the prompts to be about a different topic, such as sports, or movies, or anything else you can think of. Feel free to clone and use this project to use for your own puposes.
