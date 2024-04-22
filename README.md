@@ -10,7 +10,8 @@ Follow these simple steps to install and run the Employ Ease project on your sys
 ### Prerequisites
 
 Before you begin, ensure that you have provided an API key to the config.ini file. This file is located in the root directory of the Employ Ease project.
-You can get an API key by signing up for the ChatGPT 3.5 API at https://chatgpt.com/. 
+You can get an API key by signing up for the ChatGPT 3.5 API at https://chatgpt.com/. After signing up, you may generate your API key here: https://platform.openai.com/api-keys
+
 Once you have an API key, you can add it to the Communication section of the config.ini file
 
 ### Step-by-Step Installation
